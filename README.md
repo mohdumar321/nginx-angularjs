@@ -16,5 +16,5 @@ docker build -t <name of image> .
 Once the image is created, the following command is for run it.
 
 ```Bash
-docker run -p 8080:80 -d <name of image> --name=<name of container>
+docker run --name=<name of container> -p 80:80 -d <name of image>
 ```
